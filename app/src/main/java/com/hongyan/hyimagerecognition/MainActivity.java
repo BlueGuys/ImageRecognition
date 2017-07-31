@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -30,8 +29,7 @@ public class MainActivity extends Activity {
         });
     }
 
-    private void start(){
-        Toast.makeText(MainActivity.this,getString(R.string.start),Toast.LENGTH_SHORT).show();
-        textView.setText("hello" );
+    private void start() {
+        textView.setText("test");
     }
 }
