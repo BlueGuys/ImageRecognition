@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">HYImageRecognition</string>
+    <string name="app_name">图像识别</string>
+    <string name="start">开始</string>
 </resources>
